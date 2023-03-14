@@ -1,7 +1,7 @@
 package br.com.leonardo.javacore.introducaometodos.classes;
 
 public class Calculadora {
-    
+
     public void somaDoisNumeros() { // void = sera executado metodo que não retornará nada.
         System.out.println(5 + 5);
     }
@@ -28,7 +28,7 @@ public class Calculadora {
 
         if (num2 != 0) {
             System.out.println(num1 / num2);
-            return; //return funciona como um BREAK n método
+            return; //return funciona como um BREAK no método
         }
         System.out.println("Não é possível dividir por 0.");
     }
